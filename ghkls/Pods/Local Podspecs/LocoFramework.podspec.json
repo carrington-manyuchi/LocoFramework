@@ -1,0 +1,22 @@
+{
+  "name": "LocoFramework",
+  "version": "1.0.0",
+  "summary": "This is such a Loco Framework. Yoo, man.",
+  "description": "This is some super Loco Framework that was made by a crazy guy",
+  "homepage": "https://github.com/carrington-manyuchi/LocoFramework",
+  "license": "MIT",
+  "authors": {
+    "Carrington Manyuchi": "carringtonmanyuchi263@gmail.com"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source": {
+    "git": "https://github.com/carrington-manyuchi/LocoFramework.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "LocoFramework/**/*",
+  "frameworks": "UIKit",
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

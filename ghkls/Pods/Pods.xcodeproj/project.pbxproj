@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3316790343202753CB4DFCF13E2A52F3 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7C8850497E9217F311C702E7B4F57D /* Service.swift */; };
+		538A85A2B7E3241AAC7AB5DB849BE94D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		5B1C98002E546CF8F338CDDCAD17F4BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		811544609E4722E8C4A388F32ACC0748 /* Pods-ghkls-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 873A54B5F366E62F3710A720FF124ED4 /* Pods-ghkls-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A77117A230E48BC0CB81129C3BA265C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		B32B2BBCD815F15AD6878396C0D73452 /* LocoFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6476134BC9D80D08634976056CE7D31A /* LocoFramework-dummy.m */; };
+		B3D771E7768868AFFD35E726DA7E4164 /* Pods-ghkls-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A80E5180330DF9727DE5B389B0355DC6 /* Pods-ghkls-dummy.m */; };
+		E52A4BA864F392858C6939EC3E8C2FEC /* LocoFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A3535E6E053B5886E463F58DB8BBCA1 /* LocoFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F165601AFB167A23BF4BD373BE3043F0 /* LocoFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DE74916A8D32E4461F76CC478F3D02A /* LocoFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0637CB441B9E29CDA872C919169838AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17897CFB681C5B96AF7A2A0D6A85B60C;
+			remoteInfo = LocoFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05B1B77BA0C0F2C865D6B0D28D3EF179 /* Pods-ghkls-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ghkls-frameworks.sh"; sourceTree = "<group>"; };
+		0B36B0BA29144263007C58B02D243845 /* LocoFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocoFramework.modulemap; sourceTree = "<group>"; };
+		22EE9F82092E7E51F26A9ABE418CA57E /* Pods-ghkls-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ghkls-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A1DF267DD8A1FF25CCA00F77D018B54 /* LocoFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocoFramework-Info.plist"; sourceTree = "<group>"; };
+		3B27D85E88B74DA95D72F39DE51C218B /* LocoFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LocoFramework.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		479860C99C3C697533F2F6499D7DB804 /* LocoFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocoFramework.debug.xcconfig; sourceTree = "<group>"; };
+		497AE96C4E42520987B734AEEC1DF657 /* Pods-ghkls.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ghkls.release.xcconfig"; sourceTree = "<group>"; };
+		5A80C8159F20D502A017F102BF3E19B9 /* LocoFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocoFramework.release.xcconfig; sourceTree = "<group>"; };
+		6476134BC9D80D08634976056CE7D31A /* LocoFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocoFramework-dummy.m"; sourceTree = "<group>"; };
+		6A3535E6E053B5886E463F58DB8BBCA1 /* LocoFramework.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LocoFramework.h; path = LocoFramework/LocoFramework.h; sourceTree = "<group>"; };
+		6D544D7763C3107A4D14D3EF37A76D7A /* Pods-ghkls-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ghkls-Info.plist"; sourceTree = "<group>"; };
+		6E06259943AF099FEDFAE7AAD136C4FB /* Pods-ghkls-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ghkls-acknowledgements.markdown"; sourceTree = "<group>"; };
+		873A54B5F366E62F3710A720FF124ED4 /* Pods-ghkls-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ghkls-umbrella.h"; sourceTree = "<group>"; };
+		8DE74916A8D32E4461F76CC478F3D02A /* LocoFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocoFramework-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A80E5180330DF9727DE5B389B0355DC6 /* Pods-ghkls-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ghkls-dummy.m"; sourceTree = "<group>"; };
+		CD80AD00BE437B5BE991B33CE46847E6 /* LocoFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocoFramework-prefix.pch"; sourceTree = "<group>"; };
+		D1E7937C6F01988C501101E3F90499C2 /* Pods-ghkls */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ghkls"; path = Pods_ghkls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EDE8AEF3D51C346A882761B5E2F666FB /* Pods-ghkls.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ghkls.modulemap"; sourceTree = "<group>"; };
+		F7C487FC772E38663D3613A3E608EC71 /* Pods-ghkls.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ghkls.debug.xcconfig"; sourceTree = "<group>"; };
+		FD7C8850497E9217F311C702E7B4F57D /* Service.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Service.swift; path = LocoFramework/Service.swift; sourceTree = "<group>"; };
+		FE4BF6AC4F08E2DAAF4EBBF515BB013E /* LocoFramework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocoFramework; path = LocoFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39D0FE657095F22B52A9EE1E48E75E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A77117A230E48BC0CB81129C3BA265C3 /* Foundation.framework in Frameworks */,
+				5B1C98002E546CF8F338CDDCAD17F4BB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A4F085643C0049344CD174BBF0D0A48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				538A85A2B7E3241AAC7AB5DB849BE94D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		137A72FBF164BC11B98E5540140637FE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				722A60BB8D4B88D480390D599B578048 /* Pods-ghkls */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		722A60BB8D4B88D480390D599B578048 /* Pods-ghkls */ = {
+			isa = PBXGroup;
+			children = (
+				EDE8AEF3D51C346A882761B5E2F666FB /* Pods-ghkls.modulemap */,
+				6E06259943AF099FEDFAE7AAD136C4FB /* Pods-ghkls-acknowledgements.markdown */,
+				22EE9F82092E7E51F26A9ABE418CA57E /* Pods-ghkls-acknowledgements.plist */,
+				A80E5180330DF9727DE5B389B0355DC6 /* Pods-ghkls-dummy.m */,
+				05B1B77BA0C0F2C865D6B0D28D3EF179 /* Pods-ghkls-frameworks.sh */,
+				6D544D7763C3107A4D14D3EF37A76D7A /* Pods-ghkls-Info.plist */,
+				873A54B5F366E62F3710A720FF124ED4 /* Pods-ghkls-umbrella.h */,
+				F7C487FC772E38663D3613A3E608EC71 /* Pods-ghkls.debug.xcconfig */,
+				497AE96C4E42520987B734AEEC1DF657 /* Pods-ghkls.release.xcconfig */,
+			);
+			name = "Pods-ghkls";
+			path = "Target Support Files/Pods-ghkls";
+			sourceTree = "<group>";
+		};
+		82CA14093C106E8F57096CBEF9A95D4B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B36B0BA29144263007C58B02D243845 /* LocoFramework.modulemap */,
+				6476134BC9D80D08634976056CE7D31A /* LocoFramework-dummy.m */,
+				2A1DF267DD8A1FF25CCA00F77D018B54 /* LocoFramework-Info.plist */,
+				CD80AD00BE437B5BE991B33CE46847E6 /* LocoFramework-prefix.pch */,
+				8DE74916A8D32E4461F76CC478F3D02A /* LocoFramework-umbrella.h */,
+				479860C99C3C697533F2F6499D7DB804 /* LocoFramework.debug.xcconfig */,
+				5A80C8159F20D502A017F102BF3E19B9 /* LocoFramework.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../ghkls/Pods/Target Support Files/LocoFramework";
+			sourceTree = "<group>";
+		};
+		840E86827980A3E81DBB082F714437CF /* LocoFramework */ = {
+			isa = PBXGroup;
+			children = (
+				6A3535E6E053B5886E463F58DB8BBCA1 /* LocoFramework.h */,
+				FD7C8850497E9217F311C702E7B4F57D /* Service.swift */,
+				8F36B4883DE213D971B3AE85CF7E2DAC /* Pod */,
+				82CA14093C106E8F57096CBEF9A95D4B /* Support Files */,
+			);
+			name = LocoFramework;
+			path = ../../LocoFramework;
+			sourceTree = "<group>";
+		};
+		8F36B4883DE213D971B3AE85CF7E2DAC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3B27D85E88B74DA95D72F39DE51C218B /* LocoFramework.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		AD281AFDA5C0018D0068350A5C82A934 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE4BF6AC4F08E2DAAF4EBBF515BB013E /* LocoFramework */,
+				D1E7937C6F01988C501101E3F90499C2 /* Pods-ghkls */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				F88E6FFD8D4E4E59D22EC2A27B22C499 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				AD281AFDA5C0018D0068350A5C82A934 /* Products */,
+				137A72FBF164BC11B98E5540140637FE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F88E6FFD8D4E4E59D22EC2A27B22C499 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				840E86827980A3E81DBB082F714437CF /* LocoFramework */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		64917E54FB197AAEC7A694F7BDC82371 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				811544609E4722E8C4A388F32ACC0748 /* Pods-ghkls-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		935A59FC38560FC56F691C53BF6797CD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E52A4BA864F392858C6939EC3E8C2FEC /* LocoFramework.h in Headers */,
+				F165601AFB167A23BF4BD373BE3043F0 /* LocoFramework-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		17897CFB681C5B96AF7A2A0D6A85B60C /* LocoFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7242C78FA38F0FA0F5DE6586E4456D2 /* Build configuration list for PBXNativeTarget "LocoFramework" */;
+			buildPhases = (
+				935A59FC38560FC56F691C53BF6797CD /* Headers */,
+				B1DAA41135468C8CF21E3BAB100FE0F2 /* Sources */,
+				39D0FE657095F22B52A9EE1E48E75E9D /* Frameworks */,
+				E0674DF50EBB2B8E9C349BBF1EA6428F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocoFramework;
+			productName = LocoFramework;
+			productReference = FE4BF6AC4F08E2DAAF4EBBF515BB013E /* LocoFramework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF1E4D82314D401AA030E0EDD209779E /* Pods-ghkls */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9892E35C6027FDAFE434E0599419C2D /* Build configuration list for PBXNativeTarget "Pods-ghkls" */;
+			buildPhases = (
+				64917E54FB197AAEC7A694F7BDC82371 /* Headers */,
+				7FBF071F26D01C69309A133FAB7A94B1 /* Sources */,
+				8A4F085643C0049344CD174BBF0D0A48 /* Frameworks */,
+				2E312EF64A011B63C73F3AB847D962F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF952DF416BA5C62C975E63545EFB5C /* PBXTargetDependency */,
+			);
+			name = "Pods-ghkls";
+			productName = Pods_ghkls;
+			productReference = D1E7937C6F01988C501101E3F90499C2 /* Pods-ghkls */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = AD281AFDA5C0018D0068350A5C82A934 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17897CFB681C5B96AF7A2A0D6A85B60C /* LocoFramework */,
+				BF1E4D82314D401AA030E0EDD209779E /* Pods-ghkls */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2E312EF64A011B63C73F3AB847D962F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0674DF50EBB2B8E9C349BBF1EA6428F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FBF071F26D01C69309A133FAB7A94B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3D771E7768868AFFD35E726DA7E4164 /* Pods-ghkls-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1DAA41135468C8CF21E3BAB100FE0F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32B2BBCD815F15AD6878396C0D73452 /* LocoFramework-dummy.m in Sources */,
+				3316790343202753CB4DFCF13E2A52F3 /* Service.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBF952DF416BA5C62C975E63545EFB5C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LocoFramework;
+			target = 17897CFB681C5B96AF7A2A0D6A85B60C /* LocoFramework */;
+			targetProxy = 0637CB441B9E29CDA872C919169838AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		14C09B2CC76A796342A27A155958E545 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 479860C99C3C697533F2F6499D7DB804 /* LocoFramework.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocoFramework/LocoFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocoFramework/LocoFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LocoFramework/LocoFramework.modulemap";
+				PRODUCT_MODULE_NAME = LocoFramework;
+				PRODUCT_NAME = LocoFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		71675BB99A9C0399C8F76EA352E51239 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C487FC772E38663D3613A3E608EC71 /* Pods-ghkls.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ghkls/Pods-ghkls-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ghkls/Pods-ghkls.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86198D1F772CEBA65DFCC41280A43E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 497AE96C4E42520987B734AEEC1DF657 /* Pods-ghkls.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ghkls/Pods-ghkls-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ghkls/Pods-ghkls.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8AE551B824A31B03A59D7B92A3249FE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A80C8159F20D502A017F102BF3E19B9 /* LocoFramework.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocoFramework/LocoFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocoFramework/LocoFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/LocoFramework/LocoFramework.modulemap";
+				PRODUCT_MODULE_NAME = LocoFramework;
+				PRODUCT_NAME = LocoFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C873D3C071BDDC046D6E8F63C69C2591 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39F5B7CD9D2655A0D1F7D42E37920E8B /* Debug */,
+				C873D3C071BDDC046D6E8F63C69C2591 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7242C78FA38F0FA0F5DE6586E4456D2 /* Build configuration list for PBXNativeTarget "LocoFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C09B2CC76A796342A27A155958E545 /* Debug */,
+				8AE551B824A31B03A59D7B92A3249FE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9892E35C6027FDAFE434E0599419C2D /* Build configuration list for PBXNativeTarget "Pods-ghkls" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71675BB99A9C0399C8F76EA352E51239 /* Debug */,
+				86198D1F772CEBA65DFCC41280A43E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
